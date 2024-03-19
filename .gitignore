@@ -1,0 +1,21 @@
+# .gitignore
+
+# Ignore node_modules folder in the frontend
+/frontend/node_modules/
+
+# Ignore dist or build folder in the frontend
+/frontend/dist/
+/frontend/build/
+
+# Ignore .env files
+/frontend/.env
+
+# Ignore .NET Core build output
+/WebApplication4/bin/
+/WebApplication4/obj/
+
+# Ignore .NET Core user secrets
+/WebApplication4/*.usersecrets.json
+
+# Ignore .vscode settings
+/.vscode/
